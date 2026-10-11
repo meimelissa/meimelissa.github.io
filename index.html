@@ -144,6 +144,23 @@
   <footer class="home-footer">
     made with love, caramel &amp; a little daydreaming ♡
   </footer>
+```html
+<script>
+  function updateMapleClock() {
+    const clock = document.getElementById("maple-clock");
 
+    if (clock) {
+      const now = new Date();
+      clock.textContent = now.toLocaleTimeString("tr-TR", {
+        hour: "2-digit",
+        minute: "2-digit"
+      });
+    }
+  }
+
+  updateMapleClock();
+  setInterval(updateMapleClock, 30000);
+</script>
+```
 </body>
 </html>
