@@ -723,3 +723,9 @@ a {
   }
 }
 
+```css
+/* Hide the extra menu above the iMac */
+.home-page > .desktop {
+  display: none;
+}
+```
