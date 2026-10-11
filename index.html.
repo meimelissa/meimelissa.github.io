@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>A Little Piece of Me</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <a class="logo" href="index.html">a little piece of me ♡</a>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="interests.html">Interests</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="blog.html">Blog</a>
+    </nav>
+  </header>
+
+  <main>
+    <p class="eyebrow">A PERSONAL JOURNAL · EST. 2026</p>
+    <h1>Little things,<br>big feelings.</h1>
+    <p class="intro">
+      Welcome to my little corner of the internet.
+      A collection of things I love, memories I keep,
+      and dreams I'm working towards.
+    </p>
+    <a class="button" href="about.html">Get to know me ↗</a>
+
+    <section>
+      <h2>Currently loving...</h2>
+      <div class="cards">
+        <a class="card" href="interests.html">
+          <span>✿</span>
+          <h3>My interests</h3>
+          <p>Things that make me, me.</p>
+        </a>
+        <a class="card" href="gallery.html">
+          <span>♡</span>
+          <h3>Little moments</h3>
+          <p>A gallery of inspiration.</p>
+        </a>
+        <a class="card" href="blog.html">
+          <span>✎</span>
+          <h3>My journal</h3>
+          <p>Thoughts, stories and dreams.</p>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer>Made with love & a little daydreaming ♡</footer>
+</body>
+</html>
