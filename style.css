@@ -729,3 +729,46 @@ a {
   display: none;
 }
 ```
+```css
+/* 🍂 Autumn decorations around the iMac */
+
+.computer-scene {
+  position: relative;
+  isolation: isolate;
+}
+
+.computer-scene::before,
+.computer-scene::after {
+  position: absolute;
+  top: 22%;
+  z-index: -1;
+  width: 115px;
+  color: #a87958;
+  font-size: 31px;
+  line-height: 2.3;
+  text-align: center;
+  white-space: pre-wrap;
+  pointer-events: none;
+}
+
+.computer-scene::before {
+  content: "🍂\A 📸\A ✦\A 📚\A 🍁";
+  left: 1%;
+  transform: rotate(-7deg);
+}
+
+.computer-scene::after {
+  content: "🍁\A ☁️\A 🍂\A ✿\A 📖";
+  right: 1%;
+  transform: rotate(7deg);
+}
+
+@media (max-width: 600px) {
+  .computer-scene::before,
+  .computer-scene::after {
+    width: 48px;
+    font-size: 19px;
+    line-height: 2;
+  }
+}
+```
