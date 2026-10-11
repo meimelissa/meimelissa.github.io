@@ -574,3 +574,33 @@ a {
     margin: 28px auto;
   }
 }
+
+.photo-placeholder {
+  display: grid;
+  min-height: 150px;
+  place-items: center;
+  border-radius: 8px;
+  font-family: 'Playfair Display', serif;
+  font-size: 48px;
+}
+
+.photo-peach {
+  color: #a76540;
+  background: linear-gradient(135deg, #fbe8cb, #f2c29f);
+}
+
+.photo-pink {
+  color: #a9667e;
+  background: linear-gradient(135deg, #f8e6e7, #eac5d0);
+}
+
+.photo-lilac {
+  color: #816a9b;
+  background: linear-gradient(135deg, #f0e7f7, #d8c9e9);
+}
+
+.small-note {
+  margin-top: 18px;
+  font-size: 11px;
+  color: var(--muted);
+}
